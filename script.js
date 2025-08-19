@@ -7,7 +7,7 @@ const ratioSelect = document.getElementById("ratio-select");
 const gridGallery = document.querySelector(".gallery-grid");
 
 // Hugging Face API key and model
-const HF_API_KEY = "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";
+const HF_API_KEY = "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";
 const MODEL_NAME = "black-forest-labs/FLUX.1-dev";
 
 const examplePrompts = [
@@ -142,5 +142,6 @@ promptBtn.addEventListener("click", () => {
 
 promptForm.addEventListener("submit", handleFormSubmit);
 themeToggle.addEventListener("click", toggleTheme);
+
 
 
