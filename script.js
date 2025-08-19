@@ -143,3 +143,4 @@ promptBtn.addEventListener("click", () => {
 promptForm.addEventListener("submit", handleFormSubmit);
 themeToggle.addEventListener("click", toggleTheme);
 
+
